@@ -61,7 +61,7 @@ export default function Header() {
                   <path stroke="currentColor" strokeWidth="2" strokeLinecap="round" d="M6 6l12 12M18 6l-12 12" />
                 </svg>
               </button>
-              <Image src="/logo.png" alt="Logo" width={56} height={56} />
+              <Image src="/logo.png" alt="Logo" width={60} height={60} />
             </div>
             <div className="flex gap-2">
               <Button label="SIGN UP" type="signup" />

@@ -31,9 +31,8 @@ function SectionColumn({ title, items, isContact }: { title: string; items: stri
       </ul>
 
       {isContact && (
-        <button className="flex items-center gap-2 bg-[#383A42] text-white px-4 py-2 rounded-lg font-bold shadow hover:bg-[#333]">
-          <Image src="/phone.png" alt="" width={60} height={60} />
-          Install App
+        <button className="rounded-lg shadow hover:bg-[#333]">
+          <Image src="/installapp.png" alt="Install App" width={152} height={44} className="block" />
         </button>
       )}
     </div>

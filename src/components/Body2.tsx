@@ -1,7 +1,7 @@
 export default function Body2() {
   return (
     <section className="w-full py-6 px-2 sm:px-8 rounded-lg mt-6">
-      <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8">
         {/* About Us */}
         <div>
           <h3 className="text-white font-bold text-base mb-3">ABOUT US</h3>

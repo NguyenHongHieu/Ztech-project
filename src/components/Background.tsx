@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function Background() {
   return (
-    <div className="w-full bg-[#222] rounded-lg flex flex-wrap items-center justify-center gap-6 py-8 px-2 sm:px-8">
+    <div className="w-full bg-[#222] rounded-lg flex flex-nowrap sm:flex-wrap items-center justify-start sm:justify-center gap-3 py-4 px-2 sm:px-8 overflow-x-auto sm:overflow-x-visible scrollbar-hide">
       {/* Free to Earn */}
       <a href="#" className="flex flex-col items-center gap-2 w-28 sm:w-32">
         <span className="block">

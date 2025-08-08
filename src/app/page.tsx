@@ -11,9 +11,8 @@ export default function Home() {
       <Slider />
       <Background />
       <main className="w-full max-w-4xl flex flex-col gap-6 px-2 sm:px-6 mt-4 gap-6">
-        {/* Bọc phần body lại và set chiều rộng 80% */}
         <div className="w-full flex justify-center">
-          <div className="w-[100%] flex flex-col gap-6">
+          <div className="w-[100%] flex flex-col">
             <Body1 />
             <Body2 />
           </div>

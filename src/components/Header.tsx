@@ -37,7 +37,7 @@ export default function Header() {
   return (
     <header className="w-full py-2 flex items-center bg-[#181818] text-white px-4 sm:px-8 relative">
       {/* Mobile Menu Button */}
-      <button className="md:hidden mr-2 flex items-center justify-center w-10 h-10 rounded-full bg-[#222]" onClick={() => setMenuOpen(!menuOpen)}>
+      <button className="md:hidden mr-2 flex items-center justify-center w-10 h-10" onClick={() => setMenuOpen(!menuOpen)}>
         {menuOpen ? (
           <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
             <path stroke="currentColor" strokeWidth="2" strokeLinecap="round" d="M6 6l12 12M18 6l-12 12" />
@@ -61,7 +61,7 @@ export default function Header() {
                   <path stroke="currentColor" strokeWidth="2" strokeLinecap="round" d="M6 6l12 12M18 6l-12 12" />
                 </svg>
               </button>
-              <Image src="/logo.png" alt="Logo" width={60} height={60} />
+              <Image src="/logo.png" alt="Logo" width={56} height={60} />
             </div>
             <div className="flex gap-2">
               <Button label="SIGN UP" type="signup" />

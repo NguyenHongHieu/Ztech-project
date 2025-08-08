@@ -46,5 +46,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 ![Mobile Screenshot](./public/screen-mobile-finish1.png)
 ![Mobile Screenshot](./public/screen-mobile-finish2.png)
-![Mobile Screenshot](./public/screen-mobile-finish3.png)
 ![Mobile Screenshot](./public/screen-mobile-menu.png)

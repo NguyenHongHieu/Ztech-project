@@ -34,13 +34,17 @@ export default function Body1() {
     <section className="w-full py-8 px-2 sm:px-8 rounded-lg">
       {/* New NFT Collections */}
       <div className="flex items-center justify-between mb-4">
-        <h2 className="text-lg sm:text-xl font-bold text-yellow-400 italic">NEW NFT COLLECTIONS</h2>
+        <h2 className="text-lg sm:text-xl font-bold text-[#FFC700] italic">NEW NFT COLLECTIONS</h2>
         <div className="flex gap-2 ml-2">
-          <button className="bg-[#444] text-white rounded-md w-8 h-8 flex items-center justify-center" onClick={handlePrev} disabled={startIndex === 0}>
+          <button
+            className="bg-[#383A42] text-[#FFFFFF99] rounded-md w-8 h-8 flex items-center justify-center"
+            onClick={handlePrev}
+            disabled={startIndex === 0}
+          >
             &lt;
           </button>
           <button
-            className="bg-[#444] text-white rounded-md w-8 h-8 flex items-center justify-center"
+            className="bg-[#383A42] text-[#FFFFFF99] rounded-md w-8 h-8 flex items-center justify-center"
             onClick={handleNext}
             disabled={startIndex >= images.length - visibleCount}
           >
@@ -67,10 +71,10 @@ export default function Body1() {
         {/* Block 1: NFT Drops Calendar */}
         <div className="flex flex-col w-full md:basis-[45%]">
           <div className="flex justify-between items-center mb-3">
-            <h3 className="text-yellow-400 font-bold text-base italic">NFT DROPS CALENDAR</h3>
+            <h3 className="text-[#FFC700] font-bold text-base italic">NFT DROPS CALENDAR</h3>
             <div className="flex gap-2">
-              <button className="bg-[#444] text-white rounded-md w-7 h-7 flex items-center justify-center text-xs">&lt;</button>
-              <button className="bg-[#444] text-white rounded-md w-7 h-7 flex items-center justify-center text-xs">&gt;</button>
+              <button className="bg-[#383A42] text-[#FFFFFF99] rounded-md w-7 h-7 flex items-center justify-center text-xs">&lt;</button>
+              <button className="bg-[#383A42] text-[#FFFFFF99] rounded-md w-7 h-7 flex items-center justify-center text-xs">&gt;</button>
             </div>
           </div>
           <div className="overflow-hidden rounded-lg">
@@ -80,14 +84,14 @@ export default function Body1() {
         <div className="flex w-full md:basis-[55%] gap-4">
           {/* Block 2: Trending */}
           <div className="flex flex-col w-1/2">
-            <h3 className="text-yellow-400 font-bold text-base mb-4 italic">TRENDING</h3>
+            <h3 className="text-[#FFC700] font-bold text-base mb-4 italic">TRENDING</h3>
             <div className="overflow-hidden rounded-lg">
               <Image src="/image1.svg" alt="Trending" width={300} height={150} className="w-full h-auto md:h-[150px] object-cover" />
             </div>
           </div>
           {/* Block 3: Top Collection */}
           <div className="flex flex-col w-1/2">
-            <h3 className="text-yellow-400 font-bold text-base mb-4 italic">TOP COLLECTION</h3>
+            <h3 className="text-[#FFC700] font-bold text-base mb-4 italic">TOP COLLECTION</h3>
             <div className="overflow-hidden rounded-lg">
               <Image src="/image2.svg" alt="Top Collection" width={300} height={150} className="w-full h-auto md:h-[150px] object-cover" />
             </div>
